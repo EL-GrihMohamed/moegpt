@@ -1,0 +1,36 @@
+# Core FastAPI and web framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# AI and Machine Learning
+torch>=2.0.0
+transformers>=4.35.0
+datasets>=2.14.0
+accelerate>=0.24.0
+
+# Audio processing and speech
+openai-whisper>=20231117
+pyttsx3>=2.90
+soundfile>=0.12.1
+librosa>=0.10.1
+pydub>=0.25.1
+numpy>=1.24.0
+
+# Optional voice recognition (alternative to Whisper)
+vosk>=0.3.45
+pyaudio>=0.2.11
+SpeechRecognition>=3.10.0
+
+# OpenAI API (optional)
+openai>=1.3.0
+
+# Environment and utilities
+python-dotenv>=1.0.0
+aiofiles>=23.2.1
+
+# Development and debugging
+logging>=0.4.9.6
+
+# System integration
+webbrowser2>=0.4.97
